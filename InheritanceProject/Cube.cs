@@ -11,7 +11,7 @@ namespace InheritanceProject
         protected double Length { get; set; }
         public Cube(string name, double length) : base (name)
         {
-            //Console.WriteLine("This is a class CUBE inheriting an abstract class SHAPE");
+            
             Length = length;
             //GetInfo();
         }
